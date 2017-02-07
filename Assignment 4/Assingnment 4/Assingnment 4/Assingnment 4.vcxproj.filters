@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{2b14fa62-e88c-48ca-9559-34b7155373c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{55815887-99e4-4759-aea3-05e02cb787f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other Headers">
+      <UniqueIdentifier>{2bf2d1ca-e0ee-48f3-9fbf-8ff1ae8af13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other Sources">
+      <UniqueIdentifier>{08ee9928-42cd-4267-a883-a99156a6710c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\Remove">
+      <UniqueIdentifier>{d59c477c-f7e9-4c5a-bdad-bf17f26f4ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\Negation">
+      <UniqueIdentifier>{dea0c6e2-b569-4d65-84b9-2162b3024e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\Remove">
+      <UniqueIdentifier>{29415c1a-f57f-4479-a9a1-d8c9f4002ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\Negation">
+      <UniqueIdentifier>{08ba666c-48b2-493c-bddf-b51a90913370}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Other Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Other Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveBlueEffect.cpp">
+      <Filter>Source Files\Effects\Remove</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveGreenEffect.cpp">
+      <Filter>Source Files\Effects\Remove</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveRedEffect.cpp">
+      <Filter>Source Files\Effects\Remove</Filter>
+    </ClCompile>
+    <ClCompile Include="NegateRed.cpp">
+      <Filter>Source Files\Effects\Negation</Filter>
+    </ClCompile>
+    <ClCompile Include="NegateGreen.cpp">
+      <Filter>Source Files\Effects\Negation</Filter>
+    </ClCompile>
+    <ClCompile Include="NegateBlue.cpp">
+      <Filter>Source Files\Effects\Negation</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRandomNoise.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="HighContrast.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GreyScale.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="userInterface.cpp">
+      <Filter>Source Files\Other Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipHorzantal.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Other Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleImageEffect.h">
+      <Filter>Header Files\Other Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSplitter.h">
+      <Filter>Header Files\Other Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveBlueEffect.h">
+      <Filter>Header Files\Effects\Remove</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveGreenEffect.h">
+      <Filter>Header Files\Effects\Remove</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveRedEffect.h">
+      <Filter>Header Files\Effects\Remove</Filter>
+    </ClInclude>
+    <ClInclude Include="NegateRed.h">
+      <Filter>Header Files\Effects\Negation</Filter>
+    </ClInclude>
+    <ClInclude Include="NegateGreen.h">
+      <Filter>Header Files\Effects\Negation</Filter>
+    </ClInclude>
+    <ClInclude Include="NegateBlue.h">
+      <Filter>Header Files\Effects\Negation</Filter>
+    </ClInclude>
+    <ClInclude Include="AddRandomNoise.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="HighContrast.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GreyScale.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="userInterface.h">
+      <Filter>Header Files\Other Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipHorzantal.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bunny.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="output.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

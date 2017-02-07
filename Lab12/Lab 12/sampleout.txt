@@ -1,0 +1,15 @@
+0000  #NULL operation
+1001  #Read a word from keyboard into 01
+1102  #Write a value at 02 to screen
+2003  #Load value at 03 into accumulator
+2104  #Store accumulator value into address 04
+2205  #Unknown operation
+3010  #Add value at 10 into accumulator
+3109  #Subtract value at 09 from accumulator
+3205  #Divide value at 05 with accumulator
+3311  #Multiply value at 11 into accumulator
+4050  #Branch to location 50
+4139  #If accumulator is negative, branch to location 39
+4211  #If accumulator is zero, branch to location 11
+4300  #Halt the program 00
+9999  #Unknown operation

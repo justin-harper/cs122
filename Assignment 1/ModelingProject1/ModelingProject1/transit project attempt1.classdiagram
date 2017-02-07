@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f5d33b32-4b9a-4ba7-b5a8-fdc70a66f56e" name="transit project attempt1" linkedPackageId="dcfb13c7-b5b1-46d4-a3b6-a6d8a5d36b1c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="65f45ea9-4a0a-4564-892e-c3a6ff48b9b0">
+      <elementDefinition Id="3683f15a-4f49-4626-b0b5-b1422eefc217" />
+      <body>Features to add
+
+Estimated time of araival</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="b9f3e2ea-5b3d-400b-96a4-ffea349317f4">
+      <profileInstance Id="dc99b5b9-7b27-4c5e-898f-dec4ea62b45e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="81c1ba6f-95bf-4235-bd76-5b641e8a2e17">
+      <profileInstance Id="a79aadaa-43e5-405d-9ffc-1228670c2ec6" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f39eb225-dce6-4a61-92fb-97b7ad3940bd" name="Display Map" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5d4b535c-0178-4025-b8fb-9f9d3bb77165" />
+        <ownedOperationsInternal>
+          <operation Id="9a645519-4f28-4135-8f6d-49eb4a9f3822" name="Print Map" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5c313f6c-6f00-4ec4-ae75-73f605a0f2e9" />
+          </operation>
+          <operation Id="522b0189-121d-4380-88e3-d46efa353170" name="Update coords" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9f95e2b9-eaea-43ec-8f81-bc4a70ceed9d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1d6aa74b-6a5e-46a6-bf2b-7e0e96e7038e" name="Update" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="492c6b4e-0b68-4092-b543-83fefbefc4cd" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="97253dc6-81a4-46bb-ae73-22c44aaa1efd" name="Get data *coords" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e7e14730-d7dc-4a0f-a461-f5bf6ac98f62" />
+        <ownedOperationsInternal>
+          <operation Id="99442b7d-d5c4-4042-979a-25a8856ff3f1" name="Coords *Express1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bc73d8aa-7e04-4f14-bac7-1bffdad8adc0" />
+          </operation>
+          <operation Id="b5f4f3b9-b76e-4184-abaa-805a4b220d68" name="Coords *Express2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ae9c5617-f737-4cea-bdfe-eff9e6abf35b" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="dcfb13c7-b5b1-46d4-a3b6-a6d8a5d36b1c" name="ModelingProject1">
+    <elementDefinition Id="d3273d63-2302-47ab-a2a7-10e418f1a28b" />
+  </package>
+</logicalClassDesignerModel>
