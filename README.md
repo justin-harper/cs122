@@ -1,1 +1,2 @@
-CTS 122
+## Computer Science 122
+### Instructor: Adam Carter
